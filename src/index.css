@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+        font-family: 'Lato', sans-serif;
+    }
+    body {
+      @apply bg-[#f7f7f7] flex min-h-screen flex-col items-center justify-center m-0 text-lg
+
+    }
+  }
